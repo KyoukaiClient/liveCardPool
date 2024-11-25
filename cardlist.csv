@@ -1,4 +1,4 @@
-CRA,PHDW-001,Participant,9,0,1,Entrant,,,,Instinct Affinity,Normal,Movement,,,"Move your bordering [summon] to a [zone] it borders, then move this to the [zone] it was in.",An average boy with an average dream - inheriting his family's modest bakery. Yet underneath his weak presence lies a kindness that seems to temper the wildness of beasts.,Mark Reid
+CRA,PHDW-001,Participant,9,0,1,Entrant,,,,Instinct Affinity,Normal,Movement,,,"Move your bordering [summon] [1], then move this to the [zone] it was in.",An average boy with an average dream - inheriting his family's modest bakery. Yet underneath his weak presence lies a kindness that seems to temper the wildness of beasts.,Mark Reid
 CRA,PHDW-006,Wandering Lion,9,3,1,Summon,,,,Primal Instinct,Normal,Damage,,[target] [1] bordering [zone]:,"This deals its [attack] to [target].
 If that discarded a [summon][or][spirit], this must move to [target], then it must deal its [attack] to a bordering [gate], if there is one.",A wild beast driven more by hunger and thirst than by any command of yours.,Mark Reid
 CRA,PHDW-007,Hunting Eagle,5,0,2,Summon,,,Ready this.,Rapid Instinct,Fast,Movement,,[target] [1] bordering [zone]:,"Deal [3] to [target], then this can move to an empty bordering [zone].",A beast whose intense focus allows it to act between the thoughts of others.,Mark Reid
@@ -13,7 +13,7 @@ CRA,PHDW-013,First Form - Punch,,,,Normal,,[target] [1] [zone] that borders your
 If [target] borders your [entrant], deal [6] more.",,,,,,,"A regular punch, whose reach and power have been strengthened by a Gate.",Mark Reid
 CRA,PHDW-014,First Form - Block,,,,Fast,,[target] [1] [zone] with your [gate].,"[target] gains [3] [defense] for the rest of this sequence.
 If [target] borders or has your [entrant], it gains [6] more.",,,,,,,"A regular block, whose reach and power have been strengthened by a Gate.",Mark Reid
-CRA,PHDW-015,Stone Throw,,,,Fast,,[target] any [1] [zone]:,Deal [2] to [target] and each [zone] that borders [target].,,,,,,,"Called through a Gate, even plain gravel has its uses.",Mark Reid
+CRA,PHDW-015,Stone Throw,,,,Fast,,[target] any [1] [zone]:,"Deal [2] to [target], and each [zone] it borders.",,,,,,,"Called through a Gate, even plain gravel has its uses.",Mark Reid
 CRA,PHDW-016,Zodiac Rooster - Weathervane,8,2,1,Summon,,,,Windfacing Instinct,Passive,Special,,,"When this moves or attacks with its own action,
 it can treat a [zone] sharing a corner with it as if it was bordering it.","A rooster that glides against the wind - somehow, it can sense the true orientation of the world.",Placeholder
 CRA,PHDW-017,Tripwire,,,,Normal,,"Open this face-down as a ""Sealed Gate"" [summon] with
@@ -23,11 +23,11 @@ CRA,PHDW-018,Dissonant Gate,,,,Normal,,"Open this face-down as a ""Sealed Gate""
 CRA,PHDW-019,Escape Route,,,,Normal,,"Open this face-down as a ""Sealed Gate"" [summon] with
 [0] [attack], [2] [defense], and [0] [movement].",,Discovered Direction,Fast,Flip,,"While this is a ""Sealed Gate"", Rest it to Flip it face-up:","Switch this with your bordering [gate], then flip it face-down as a ""Sealed Gate"" in its [zone].",A significant advantage can be gained from an understanding of the land around you.,Mark Reid
 CRA,PHDW-020,Into the Gate,,,,Normal,,Open in a [zone] bordered by [2] or more of your [gate]:,"Move [1] of your [gate], except this one, to a bordering [zone].",,,,,,,"Feng watched as the Gate slowly shrank - before her, a crack in the Boundaries of her fated Path. Energy leaked through, invigorating her beyond her illness, drawing her towards a future she could build herself...",Mark Reid
-CRA,PHDW-021,Foresight Glass,,,,Fast,,[foresee] [2]:,"You can discard [1] [gate] from your [foresee],
+CRA,PHDW-021,Pathfinder's Foresight Glass,,,,Fast,,[foresee] [2]:,"You can discard [1] [gate] from your [foresee],
 then you can place [1] [gate] from your [foresee] on top of your [deck].",,,,,,,The future doesn't wait for you just because you've seen it.,Placeholder
 CRA,PHDW-022,Second Form - Counterpunch,,,,Fast,,"Shatter a ""First Form"" [gate] from your [discard].",Deal [9] to the [gate] this directly responded to.,,,,,,,A powerful attack guided by a mastery of the basics.,Mark Reid
 CRA,PHDW-023,Childhood Guardian,0,1,2,Spirit,1,If your Opponent is taking the first Turn: Start the game with this Ready and bordering your [entrant].,,Familiar Instinct,Fast,Movement,,,This moves to an empty [zone] bordering your [entrant].,A strangely nostalgic Spirit that hates imbalance. They appear in front of those who need them most.,Mark Reid
-CRA,PHDW-024,Zodiac Dragon - Cloudfarer,12,0,2,Summon,,Shatter [3] differently named [gate] from your [discard].,Ready This.,Skypierce Dive,Normal,Damage,,,"This moves to an empty bordering [zone], then deals its [attack] to a bordering [zone]. Place this on the bottom of your [deck].","A beast whose heart is always above the clouds, even during the rare occasions when it descends.",Placeholder
+CRA,PHDW-024,Zodiac Dragon - Cloudfarer,12,0,1,Summon,,Shatter [3] differently named [gate] from your [discard].,Ready This.,Skypierce Dive,Normal,Damage,,,"This moves to an empty bordering [zone], then deals its [attack] to a bordering [zone]. Place this on the bottom of your [deck].","A beast whose heart is always above the clouds, even during the rare occasions when it descends.",Placeholder
 CRA,PHDW-025,Shoreslight Spellshard,,,,Normal,,Shatter this.,,Cradle's Opal,Passive,Find,,,"Any effect that Shatters this for its Cost gains this text:
 ""Add [1] [gate] from your [shatter] to your [hand], except ""Shoreslight Opal"".""",A shard that refracts light from an unknown source. It seems to respond more strongly to those that share its origin.,Mark Reid
 CRA,PHDW-026,"Feng, Emerging Flame",0,0,0,Spirit,1,"Open bordering [3] or more of your [gate],
@@ -45,23 +45,25 @@ CRA,PHDW-034,Branchnest Hawk,4,1,2,Summon,,"[target] up to [3] of your discarded
 that have a Branch [skill].",Branch those [target] from this.,Nesting Instinct,Passive,Special,,,"After resolving an effect where this moves, discard [1] of its Branches, or if this has none, return this to your [hand] instead.","A beast whose nests are often built from all manner of useful items. If you find an unguarded nest, don't take anything - these hawks have been known to track and hunt thieves.",Placeholder
 CRA,PHDW-035,Wanderer's Will,,,,Normal,,,Ready one of your [summon][or][spirit][or][entrant] that has been moved by more than one different effect or action this turn.,,,,,,,A gate that seems to connect to the recent past.,Placeholder
 CRA,PHDW-036,Pinfencer's Pixtea Prayer,,,,Fast,,[target] any [1] [zone].,Switch the written [attack] and [defense] of a [summon][or][spirit][or][entrant] in [target] for the rest of this Sequence.,,,,,,,,Mark Reid
-CRA,PHDW-037,Marketplace Origin Altar,0,3,0,Summon,,,,Bustling Gathering,Normal,Resource,,Discard [1] of your Branch [gate] that is Branched from your bordering [gate]. [foresee] [1]:,Add any [1] [gate] from your [foresee] to your [hand].,"An Altar placed where commerce and currency flow ceaselessly. During tournaments, food stands take over, grasping the opportunity provided by hungry spectators.",Placeholder
+CRA,PHDW-037,Marketplace Origin Altar,0,3,0,Summon,,,,Bustling Gathering,Normal,Resource,,Discard [1] of your Branched [gate]. [foresee] [1]:,Add any [1] [gate] from your [foresee] to your [hand].,"An Altar placed where commerce and currency flow ceaselessly. During tournaments, food stands take over, grasping the opportunity provided by hungry spectators.",Placeholder
 CRA,PHDW-038,Zodiac Monkey - Foresight,6,1,1,Summon,,,,Fortune Paw,Fast,Find,,[foresee] [2]:,You can place [1] [gate] from your [foresee] on top of your [deck].,,Placeholder
-CRA,PHDW-039,Zodiac Wilds Altar,0,2,0,Summon,,,,Instinct Origin,Normal,Special,,,"Ready a bordering [summon] with a ""Zodiac"" [skill].",An Altar placed where beasts are often born. Dense forests laden with life deepen those lives' instincts for survival.,Placeholder
+CRA,PHDW-039,Zodiac Wilds Altar,0,2,0,Summon,,,,Instinct Origin,Normal,Special,,,"Ready a bordering [summon] with an ""Instinct"" [skill].",An Altar placed where beasts are often born. Dense forests laden with life deepen those lives' instincts for survival.,Placeholder
 CRA,PHDW-040,Medallion Shard - Wealth,,,,Normal,,,Branch this from your [entrant][or][summon][or][spirit].,Elusive Luxury,Normal,Branch,,"While this has [3] Branched ""Medallion Shard"" [gate]:",Draw [1].,,Placeholder
-CRA,PHDW-041,Medallion Shard - Purpose,,,,Normal,,,Branch this from your [entrant][or][summon][or][spirit].,Elusive Vigor,Normal,Branch,,"While this has [3] Branched ""Medallion Shard"" [gate]:","Discard your Branched ""Medallion Shard - Purpose"" to Ready this.",,Placeholder
+CRA,PHDW-041,Medallion Shard - Purpose,,,,Normal,,,Branch this from your [entrant][or][summon][or][spirit].,Elusive Vigor,Normal,Branch,,"While this is Rested and has [3] Branched ""Medallion Shard"" [gate]:","Discard your Branched ""Medallion Shard - Purpose"" to Ready this.",,Placeholder
 CRA,PHDW-042,Zodiac Rat - Forerunner,0,0,2,Summon,,,,Scurrying Pawn,Passive,Special,,,"You can Open a [summon] with a ""Zodiac"" [skill] in this [zone] by discarding this.",,Placeholder
 CRA,PHDW-043,Zodiac Pig - Merchant,3,2,1,Summon,,,,Runaway Prosperity,Normal,Special,,"[foresee] [2], then for each Branch on this [gate], [foresee] [1] more:",Branch a [gate] with a Branch [skill] from your [foresee] to this.,,Placeholder
-CRA,PHDW-044,Zodiac Horse - Cavalry,4,0,1,Summon,,,,Gallant March,Normal,Movement,,,This and a bordering [summon][or][spirit][or][entrant] move to empty [zone] they border in the same direction.,,Placeholder
-CRA,PHDW-045,Zodiac Dog - Honesty,8,2,1,Summon,,,,Fair Fetch,Fast,Special,,[foresee] [1]:,"You can add [1] [gate] from your [foresee] to your [hand], except a [summon], but if you do, your Opponent can do the same.",,Placeholder
+CRA,PHDW-044,Zodiac Horse - Cavalry,4,0,1,Summon,,,,Gallant March,Normal,Movement,,,This and a bordering [summon][or][spirit][or][entrant] move [1] in the same direction.,,Placeholder
+CRA,PHDW-045,Zodiac Dog - Honesty,8,2,1,Summon,,,,Fair Fetch,Fast,Special,,Both players [foresee] [1]:,"You can add [1] [gate] from your [foresee] to your [hand], except a [summon], but if you do, your Opponent can do the same.",,Placeholder
 CRA,PHDW-046,Zodiac Ox - Cornerstone,9,4,1,Summon,,,,Reliable Instinct,Passive,Special,,,Ready this during your Opponent's Ready Step.,,Placeholder
 CRA,PHDW-047,Zodiac Snake - Assassin,0,0,2,Summon,,,,Poison Fang,Normal,Special,,[target] [1] bordering [zone]:,Discard a [summon][or][spirit] from [target] with [9] or more [defense].,,Placeholder
-CRA,PHDW-048,Zodiac Tiger - Warrior,10,2,1,Summon,,,,Zodiac Honor,Passive,Damage,,,Any [summon][or][spirit][or][entrant] this deals damage to also deals its [attack] to this.,,Placeholder
+CRA,PHDW-048,Zodiac Tiger - Warrior,10,6,1,Summon,,,,Zodiac Honor,Passive,Damage,,,"Before this deals damage to a [gate], that [gate] deals its [attack] to this first (if it has an [attack]).",,Placeholder
 CRA,PHDW-049,Zodiac Rabbit - Life,0,0,2,Spirit,3,"Return [3] [summon] with a ""Zodiac"" [skill] from your [discard] to the bottom of your [deck].",Ready This.,Spring's Sign,Normal,Special,,,"Ready [1] of your ""Zodiac"" [summon] that borders this.",,Mark Reid
 CRA,PHDW-050,Zodiac Goat - Signpost,9,3,1,Summon,,,,Vertical Instinct,Passive,Movement,,,When this enters a corner [zone] of the field (whether by moving or Summoning): Ready it.,,Placeholder
 CRA,PHDW-051,Boomerang Fish,8,0,2,Summon,,,Branch this from your [entrant].,Homeward Spin,Normal,Branch,,"Place each ""Boomerang Fish"" Branched from this into a bordering [zone], then Ready them.","As this turn ends, Branch all of your ""Boomerang Fish"" from your [entrant].",,Mark Reid
-CRA,PHDW-052,Reserved Slot,,,,Normal,,,,,,,,,,,
-CRA,PHDW-053,Reserved Slot,,,,Normal,,,,,,,,,,,
+CRA,PHDW-052,Trapdoor Spider,8,0,0,Summon,,"Open this face-down as a ""Sealed Gate"" [summon] with 
+[0] [attack], [2] [defense], and [0] [movement].",,Patience Payoff,Fast,Flip,,"While this is a ""Sealed Gate"", Rest it to Flip it face-up:","This deals its [attack] to a bordering [zone].
+You can return this to your [hand].",,
+CRA,PHDW-053,Hunter's Divebreak,,,,Fast,,,"For one of your effects that has [1] [target], choose a new [target] for it.",,,,,,,,
 CRA,PHDW-054,Reserved Slot,,,,Normal,,,,,,,,,,,
 CRA,PHDW-055,Reserved Slot,,,,Normal,,,,,,,,,,,
 CRA,PHDW-056,Reserved Slot,,,,Normal,,,,,,,,,,,
@@ -90,7 +92,7 @@ CF,PHDW-069,"Mido, Glasses-Garnered Gecko",4,0,1,Summon,,[foresee] [2]:,"Add [1]
 CF,PHDW-070,Prominent Pixie,8,4,2,Summon,,,,Pixtea Elegance,Normal,Find,,"If this hasn't moved this turn, [foresee] [3]:","Add [1] ""Pixtea"" [gate] from your [foresee][or][discard] to your [hand].",A beast raised in the wilds of nobility. An exceptional talent for etiquette has solidified both her birthright and influence in Pixie society.,Mark Reid
 CF,PHDW-071,Pinfencer's Pixtea Pride,,,,Fast,,[foresee] [6]:,"Place a ""Pinfencer Pixie"" [summon] from your [foresee][or][hand][or][discard] in a [zone] bordering your Ready ""Pixie"" [gate], then Ready it.",,,,,,,,Mark Reid
 CF,PHDW-072,Pathcrossing Noodles,,,,Normal,,[foresee] [4]:,"Add [1] ""Form"" [gate][or][discard] from your [foresee] to your [hand].",,,,,,,,Placeholder
-CF,PHDW-073,Spellshard Catalyzing,,,,Normal,,"Shatter up to [3] different ""Spellshard"" [gate] from your [discard]. [target] any [1] [zone].",,,,,,,,A basic spell brought to its limit by the depths of its caster's knowledge and catalog of spellshards.,Mark Reid
+CF,PHDW-073,Spellcast Catalyzing,,,,Normal,,"Shatter up to [3] different ""Spellshard"" [gate] from your [discard]. [target] any [1] [zone].",,,,,,,,A basic spell brought to its limit by the depths of its caster's knowledge and catalog of spellshards.,Mark Reid
 CF,PHDW-074,Shardsplit Catalyzing,,,,Fast,,"Shatter [1] ""Spellshard"" [gate] from your [discard].
 [target] any [2] [zone].",,,,,,,,"An evolution of a basic spell, that tests the caster's ability to split their attention without losing track of finer details.",Mark Reid
 CF,PHDW-075,Quickshard Catalyzing,,,,Fast,,"[foresee] [3]. Shatter [1] ""Spellshard"" [gate] from your [foresee][or][discard]. [target] any [1] [zone].",,,,,,,,"When focusing solely on speed, a proficient caster can cast even two spells in the blink of an eye.",Mark Reid
@@ -100,7 +102,17 @@ CF,PHDW-077,Pixtea Invitation,,,,Fast,,[foresee] [3]:,"Add [1] ""Pixtea"" or ""P
 CF,PHDW-078,Pixtea Leaf Broach,,,,Normal,,,Branch this from your [entrant][or][summon][or][spirit].,Royal's Favor,Passive,Branch,,,"Add "" - Pixie Queen's Knight"" to the name of this [gate].
 This gains [2] [attack].",An emblem of loyalty. Alignment with Pixie royalty brings a pride that can lift one's strength greatly - although the magic imbued within it helps too.,Placeholder
 CF,PHDW-079,Pixtea Party,,,,Fast,,,"All of your ""Pixie"" [gate] on the field gain [2] [attack], [2] [defense], and [2] [movement] for the rest of the turn.",,,,,,,"Pixie society moves through the forest, under the protective shade of the forest. What mystical activities could they be secretly engaging in behind closed doors?",Placeholder
-CF,PHDW-080,Surveyor's Sighting,,,,Normal,,"For each of your [gate] with a ""Surveyor"" [skill], [foresee] [2]:",Add up to [2] [gate] that are from different Paths than your [entrant] from your [foresee] to your [hand].,,,,,,,,Mark Reid
+CF,PHDW-080,Surveyor's Sighting,,,,Normal,,"For each of your [gate] with a ""Surveyor"" [skill], [foresee] [2]:",Add up to [2] [gate] that are from different Paths than your [entrant] from your [foresee] to your [hand].,,,,,,,,
+CF,PHDW-146,Pixtea Pastries,,,,Normal,,"Rest any number of your ""Pixie"" [summon][or][spirit]. [foresee] [1] for each.",Add any [1] [gate] from your [foresee] to your [hand].,,,,,,,,
+CF,PHDW-147,Reserved Slot,,,,Normal,,,,,,,,,,,
+CF,PHDW-148,Reserved Slot,,,,Normal,,,,,,,,,,,
+CF,PHDW-149,Reserved Slot,,,,Normal,,,,,,,,,,,
+CF,PHDW-150,Reserved Slot,,,,Normal,,,,,,,,,,,
+CF,PHDW-151,Reserved Slot,,,,Normal,,,,,,,,,,,
+CF,PHDW-152,Reserved Slot,,,,Normal,,,,,,,,,,,
+CF,PHDW-153,Reserved Slot,,,,Normal,,,,,,,,,,,
+CF,PHDW-154,Reserved Slot,,,,Normal,,,,,,,,,,,
+CF,PHDW-155,Reserved Slot,,,,Normal,,,,,,,,,,,
 AR,PHDW-003,"Jin, Ember's Pillar",9,0,1,Entrant,,,,The Ten-Thousandth Fist,Fast,Find,,[foresee] [3]:,"You can add [1] ""First Form"" [gate] from your [foresee] to your [hand].
 You can discard [1] [gate] from your [foresee].",,Mark Reid
 AR,PHDW-081,The Transient Phoenix,6,0,3,Spirit,1,"Shatter [3] ""Ashen Shell"" from your [discard].",,Ravenous Rebirth,Fast,Special,,"While this is in your [discard], place this Rested in an empty [zone] bordering your [entrant]:","This can move with its [movement], then it can deal its [attack] to a bordering [zone].",,Placeholder
@@ -127,6 +139,86 @@ AR,PHDW-097,First Form - Rising Draft,,,,Fast,,,"Move either your [entrant] or y
 AR,PHDW-098,Second Form - Echoing Memory,,,,Normal,,"Pay the Open Cost of a ""First Form"" [gate] in your [discard] and Shatter it.","Resolve the Open Effect of the ""First Form"" [gate] this Shattered.",,,,,,,,Mark Reid
 AR,PHDW-099,Second Form - Lightning Step,,,,Fast,,"Shatter a ""First Form"" [gate] from your [discard].","For each ""Form"" [gate] in your [shatter], move your [entrant] to an empty [zone] it borders. 
 Each of these movements must be in the same direction.",,,,,,,,Placeholder
-AR,PHDW-100,Worn Gi,,,,Normal,,,Branch this from your [entrant].,Tested Stance,Passive,Branch,,,"While this is Ready, it gains [2] [attack], [2] [defense], and [1] [movement].",,Placeholder
+AR,PHDW-156,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-157,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-158,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-159,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-160,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-161,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-162,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-163,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-164,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-165,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-166,Reserved Slot,,,,Normal,,,,,,,,,,,
 GC,PHDW-004,"Aranyani, Spirit's Focus",2,0,1,Entrant,,,,One with the Land,Fast,Special,,,"Switch this with [1] of your bordering Rested ""Altar"" [summon], and if you do, Ready it.",,Mark Reid
+GC,PHDW-101,Verdant Wilds Altar,0,3,0,Summon,,You can have up to Thirty of this in your [deck].,"Ready this.
+You cannot open a [summon] in a bordering [zone].",Sacred Confine,Passive,Special,,,You cannot open [summon] from your [hand] bordering this.,,
+GC,PHDW-102,Flowing Lava Altar,0,3,0,Summon,,You can have up to Thirty of this in your [deck].,"Ready this.
+You cannot open a [summon] in a bordering [zone].",Sacred Confine,Passive,Special,,,You cannot open [summon] from your [hand] bordering this.,,
+GC,PHDW-103,Endless Sea Altar,0,3,0,Summon,,You can have up to Thirty of this in your [deck].,"Ready this.
+You cannot open a [summon] in a bordering [zone].",Sacred Confine,Passive,Special,,,You cannot open [summon] from your [hand] bordering this.,,
+GC,PHDW-104,Echoing Prayers,,,,Fast,,,"Take an ""Altar"" [summon] from your [discard][or][hand] and place it in a [zone] bordering your [entrant], then Ready it.",,,,,,,,
+GC,PHDW-105,Counter Current,,,,Fast,,"[target] any [1] [zone] with your ""Sea Altar"" [gate]:","Choose an Opponent's non-[entrant] [gate] whose effect is targetting [target], and place it on top of its [deck] (its effect does not resolve).",,,,,,,,
+GC,PHDW-106,Molten Rain,,,,Normal,,,"Deal [4] to any Opponent's [gate] bordered by [2] or more of your ""Lava Altar"" [summon].",,,,,,,,
+GC,PHDW-107,Shooting Star Step,,,,Fast,,,"Move your [entrant] to a [zone] bordered by [2] or more [zone] with different ""Altar"" [summon].",,,,,,,,
+GC,PHDW-108,Flying Floodfish,0,0,1,Spirit,3,"Rest these among your ""Altar"" [summon]: [1] ""Sea"".","Branch [1] of your ""Sea Altar"" [summon] from this.",Rainbringing,Normal,Special,,[target] this [zone].,"Return this to the [spirit] [deck]. Place a ""Sea Altar"" that was branched from it in [target], then Ready it.",,
+GC,PHDW-109,,,,,Spirit,3,"Rest these among your ""Altar"" [summon]: [1] ""Sea"".",,,,,,,,"A pale blue glow emitted from the deepest darkness of the sea. If offered enough territory, it rises to greet its expanding influence.",
+GC,PHDW-110,Saltcrust Seagull,6,2,2,Spirit,3,"Rest these among your ""Altar"" [summon]: [2] ""Sea"".",Draw [1].,,,,,,,"A legless seagull that wanders the air above the sea. It continues to drift endlessly, even as its body becomes encrusted with salt.",
+GC,PHDW-111,Swordfish Dancer,6,0,0,Spirit,3,"Rest these among your ""Altar"" [summon]: [2] ""Sea"".","Branch [1] of your ""Sea Altar"" [summon] from this.",Seaborn Fencer,Normal,Damage,,"You cannot add to this Sequence, and your Opponent can only add to it once.","This switches with [1] of your ""Sea Altar"" [summon], then deals its [attack] to a bordering [zone].",,
+GC,PHDW-112,Sea Depths' Elusion,8,0,0,Spirit,1,"Rest these among your ""Altar"" [summon]: [4] ""Sea"".","Branch [1] of your ""Sea Altar"" [summon] from this, then Ready this.",Rising Reign,Fast,Movement,,,"Branch [1] of your ""Sea Altar"" [summon] from this to move this to the [zone] it was in.
+If this has at least [3] branched ""Sea Altar"", Ready it.",A beast born with both the weapon and honor of a swordsman ingrained into its body. It fights not to live but to test its skill in fair clashes.,
+GC,PHDW-113,Lava Strider,4,0,2,Spirit,3,"Rest these among your ""Altar"" [summon]: [1] ""Lava"".",,Volatile Shell,Normal,Damage,,,"This deals its [attack] to a bordering [zone].
+If this isn't bordered by a ""Lava Altar"", return it to your [spirit] [deck].","A floating palace hidden in the moon's glow. It's said to be the origin of all Spirits, acting as a final station between this world and the next.",
+GC,PHDW-114,Bomb Ghost,0,0,3,Spirit,3,,,,,,,,,,
+GC,PHDW-115,Obsidian Golem,4,0,1,Spirit,3,"Rest these among your ""Altar"" [summon]: [2] ""Lava"".","If this is bordered by a ""Sea Altar"", Ready this.",Mirrored Body,Passive,Special,,,Any damage dealt to this is also dealt to the [gate] whose effect dealt that damage.,,
+GC,PHDW-116,Rocket Drake,7,0,0,Spirit,3,"Rest these among your ""Altar"" [summon]: [2] ""Lava"".",,Piercing Flame,Normal,Movement,,,This moves to an empty bordering [zone]. Repeat in the same direction until you can't. This deals its [attack] to the occupied [zone] that stopped this movement.,,
+GC,PHDW-117,Flame Queen's Robe,0,0,0,Spirit,1,"Rest these among your ""Altar"" [summon]: [4] ""Lava"".",Branch this from your [entrant].,One With the Sun,Passive,Branch,,,"When you use One with the Land, you can switch with any of your ""Lava Altar"" instead, and if you do, deal [9] to each bordering [zone].",,
+GC,PHDW-118,Reserved Slot,,,,Spirit,3,"Rest these among your ""Altar"" [summon]: [1] ""Wilds"".","Branch [1] of your ""Sea Altar"" [summon] from this.",Rainbringing,Normal,Special,,[target] this [zone].,"Return this to the [spirit] [deck]. Place a ""Sea Altar"" that was branched from it in [target], then Ready it.",,
+GC,PHDW-119,Reserved Slot,,,,Spirit,3,"Rest these among your ""Altar"" [summon]: [1] ""Wilds"".","Branch this from your ""Sea Altar"" [gate].",Teeming Twilight,Passive,Branch,,,"Add "" - Wilds Altar"" to the Name of this [gate]. When Resting this for the Open Cost of your [spirit], you can treat this as [2] ""Altar"" [summon] with its name.",,
+GC,PHDW-120,Reserved Slot,,,,Spirit,3,"Rest these among your ""Altar"" [summon]: [2] ""Wilds"".",Draw [1].,,,,,,,,
+GC,PHDW-121,Reserved Slot,,,,Spirit,3,"Rest these among your ""Altar"" [summon]: [2] ""Wilds"".","Branch [1] of your ""Sea Altar"" [summon] from this.",Seaborn Fencer,Normal,Damage,,"You cannot add to this Sequence, and your Opponent can only add to it once.","This switches with [1] of your ""Sea Altar"" [summon], then deals its [attack] to a bordering [zone].",,
+GC,PHDW-122,Reserved Slot,,,,Spirit,1,"Rest these among your ""Altar"" [summon]: [4] ""Wilds"".","Branch [1] of your ""Sea Altar"" [summon] from this, then Ready this.",Rising Reign,Fast,Movement,,,"Branch [1] of your ""Sea Altar"" [summon] from this to move this to the [zone] it was in.
+If this has at least [3] branched ""Sea Altar"", Ready it.",,
+GC,PHDW-123,Treeshadow School,0,0,0,Spirit,3,"Rest these among your ""Altar"" [summon]: [1] ""Sea"".","Branch this from your ""Sea Altar"" [gate].",Teeming Twilight,Passive,Branch,,,"Add "" - Wilds Altar"" to the Name of this [gate]. When Resting this for the Open Cost of your [spirit], you can treat this as [2] ""Altar"" [summon] with its name.",,
+GC,PHDW-124,Reserved Slot,,,,Normal,,,,,,,,,,,
+GC,PHDW-125,Reserved Slot,,,,Normal,,,,,,,,,,,
+GC,PHDW-167,Reserved Slot,,,,Normal,,,,,,,,,,,
+GC,PHDW-168,Reserved Slot,,,,Normal,,,,,,,,,,,
+GC,PHDW-169,Reserved Slot,,,,Normal,,,,,,,,,,,
+GC,PHDW-170,Reserved Slot,,,,Normal,,,,,,,,,,,
+GC,PHDW-171,Reserved Slot,,,,Normal,,,,,,,,,,,
 SR,PHDW-005,"In'ei, Sealing Shadow",3,0,1,Entrant,,,,Shadow's Source,Normal,Special,,[target] any [1] [zone].,"Flip any [summon] in [target] face-down as a ""Sealed"" [gate].",,Mark Reid
+SR,PHDW-126,Trapdoor Spider,6,0,1,Summon,,"Open this face-down as a ""Sealed Gate"" [summon] with
+[0] [attack], [2] [defense], and [0] [movement].",,Ambushing Shadow,Fast,Flip,,"While this is a ""Sealed Gate"", Rest it and Flip it face-up:",Deal the [attack] of this [summon] to a bordering [zone].,A beast whose instinctual behaviors are so similar to basic sealing rituals that some say those traditions were inspired by these spiders in the first place.,
+SR,PHDW-127,Shadowstep Wolf,4,0,2,Summon,,"Open this face-down as a ""Sealed Gate"" [summon] with
+[0] [attack], [2] [defense], and [0] [movement].",,Trained Shadow,Fast,Flip,,"While this is a ""Sealed Gate"", Rest it and Flip it face-up:",This moves with its [movement].,,
+SR,PHDW-128,Shadowseek Owl,1,0,2,Summon,,"Open this face-down as a ""Sealed Gate"" [summon] with
+[0] [attack], [2] [defense], and [0] [movement].",,Hunting Shadow,Fast,Flip,,"While this is a ""Sealed Gate"", Rest it and Flip it face-up:",Add [1] [gate] with a Shadow [skill] from your [deck] to your [hand].,,
+SR,PHDW-129,Creeping Twilight,,,,Normal,,,"Flip all of your face-up [summon] with a ""Shadow"" [skill] face-down as ""Sealed"" [gate].
+(If they are Ready or Resting, they stay Ready or Resting.)",,,,,,,,
+SR,PHDW-130,Advancing Shadow,,,,Normal,,"Open this bordering your [entrant], even if it's Rested.","Ready all of your ""Sealed"" [gate], then end your turn.",,,,,,,,
+SR,PHDW-131,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-132,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-133,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-134,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-135,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-136,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-137,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-138,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-139,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-140,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-141,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-142,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-143,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-144,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-145,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-172,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-173,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-174,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-175,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-176,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-177,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-178,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-179,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-180,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-181,Reserved Slot,,,,Normal,,,,,,,,,,,
