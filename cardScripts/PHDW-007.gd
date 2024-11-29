@@ -1,7 +1,6 @@
 extends Node2D
 #Hunting Eagle
 
-func resoForOpenMe():
+func resoForOpenMe(source, targetArray):
 	get_parent().get_parent().readyMe()
-	var snapZoneNode
-	snapZoneNode = get_node(Global.pathStrings["cursorMouseCatch"]+"/"+get_parent().get_parent().inZoneID)
+	get_parent().emitStartNextSequence()

@@ -37,8 +37,12 @@ func costForOpenMe():
 	snapZoneNode = get_node(Global.pathStrings["cursorMouseCatch"]+"/"+get_parent().get_parent().inZoneID)
 	RulesEngine.toggleZoneMarkers(true, snapZoneNode, get_parent().get_parent(), RulesEngine.MARKERTYPES.OPENCOST)
 	RulesEngine.requestPileChoice(get_parent(), RulesEngine.PILES.DISCARD,3,3,"noDupe", "Choose [3] differently named [gate] to Shatter:", RulesEngine.DESTINATIONS.SHATTER)
+	
+	await RulesEngine.pileChoiceReceived
+	RulesEngine.requestResponse(get_parent(), "openedAGate")
 
-func resoForOpenMe():
+func resoForOpenMe(source, targetArray):
 	get_parent().get_parent().readyMe()
 	var snapZoneNode
 	snapZoneNode = get_node(Global.pathStrings["cursorMouseCatch"]+"/"+get_parent().get_parent().inZoneID)
+	get_parent().emitStartNextSequence()
