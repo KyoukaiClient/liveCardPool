@@ -13,7 +13,7 @@ CRA,PHDW-013,First Form - Punch,,,,Normal,,[target] [1] [zone] that borders your
 If [target] borders your [entrant], deal [6] more.",,,,,,,"A regular punch, whose reach and power have been strengthened by a Gate.",Mark Reid
 CRA,PHDW-014,First Form - Block,,,,Fast,,[target] [1] [zone] with your [gate].,"[target] gains [3] [defense] for the rest of this sequence.
 If [target] borders or has your [entrant], it gains [6] more.",,,,,,,"A regular block, whose reach and power have been strengthened by a Gate.",Mark Reid
-CRA,PHDW-015,Stone Throw,,,,Fast,,[target] any [1] [zone]:,"Deal [2] to [target], and each [zone] it borders.",,,,,,,"Called through a Gate, even plain gravel has its uses.",Mark Reid
+CRA,PHDW-015,Stone Throw,,,,Fast,,[target] any [1] [zone]:,"Deal [1] to [target], and each [zone] it borders.",,,,,,,"Called through a Gate, even plain gravel has its uses.",Mark Reid
 CRA,PHDW-016,Zodiac Rooster - Weathervane,8,2,1,Summon,,,,Windfacing Instinct,Passive,Special,,,"When this moves or attacks with its own action,
 it can treat a [zone] sharing a corner with it as if it was bordering it.","A rooster that glides against the wind - somehow, it can sense the true orientation of the world.",Placeholder
 CRA,PHDW-017,Tripwire,,,,Normal,,"Open this face-down as a ""Sealed Gate"" [summon] with
@@ -27,7 +27,7 @@ CRA,PHDW-021,Pathfinder's Foresight Glass,,,,Fast,,[foresee] [2]:,"You can disca
 then you can place [1] [gate] from your [foresee] on top of your [deck].",,,,,,,The future doesn't wait for you just because you've seen it.,Placeholder
 CRA,PHDW-022,Second Form - Counterpunch,,,,Fast,,"Shatter a ""First Form"" [gate] from your [discard].",Deal [9] to the [gate] this directly responded to.,,,,,,,A powerful attack guided by a mastery of the basics.,Mark Reid
 CRA,PHDW-023,Childhood Guardian,0,1,2,Spirit,1,If your Opponent is taking the first Turn: Start the game with this Ready and bordering your [entrant].,,Familiar Instinct,Fast,Movement,,,This moves to an empty [zone] bordering your [entrant].,A strangely nostalgic Spirit that hates imbalance. They appear in front of those who need them most.,Mark Reid
-CRA,PHDW-024,Zodiac Dragon - Cloudfarer,12,0,1,Summon,,Shatter [3] differently named [gate] from your [discard].,Ready This.,Skypierce Dive,Normal,Damage,,,"This moves to an empty bordering [zone], then deals its [attack] to a bordering [zone]. If this damage discarded another [summon][or][spirit], place this on the bottom of your [deck].","A beast whose heart is always above the clouds, even during the rare occasions when it descends.",Placeholder
+CRA,PHDW-024,Zodiac Dragon - Cloudfarer,12,1,1,Summon,,Shatter [3] differently named [gate] from your [discard].,Ready This.,Skypierce Dive,Normal,Damage,,,"This moves to an empty bordering [zone], then deals its [attack] to a bordering [zone]. If this damage discarded another [summon][or][spirit], place this on the bottom of your [deck].","A beast whose heart is always above the clouds, even during the rare occasions when it descends.",Placeholder
 CRA,PHDW-025,Shoreslight Spellshard,,,,Normal,,Shatter this.,,Cradle's Opal,Passive,Find,,,"Any effect that Shatters this for its Cost gains this text:
 ""Add [1] [gate] from your [shatter] to your [hand], except ""Shoreslight Opal"".""",A shard that refracts light from an unknown source. It seems to respond more strongly to those that share its origin.,Mark Reid
 CRA,PHDW-026,"Feng, Emerging Flame",0,0,0,Spirit,1,"Open bordering [3] or more of your [gate],
