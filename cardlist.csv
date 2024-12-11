@@ -52,7 +52,8 @@ CRA,PHDW-040,Medallion Shard - Wealth,,,,Normal,,,Branch this from your [entrant
 CRA,PHDW-041,Medallion Shard - Purpose,,,,Normal,,,Branch this from your [entrant][or][summon][or][spirit].,Elusive Vigor,Normal,Branch,,"While this is Rested and has [3] Branched ""Medallion Shard"" [gate]:","Discard your Branched ""Medallion Shard - Purpose"" to Ready this.",,Placeholder
 CRA,PHDW-042,Zodiac Rat - Forerunner,0,0,2,Summon,,,,Scurrying Pawn,Passive,Special,,,"You can Open a [summon] with a ""Zodiac"" [skill] in this [zone] by discarding this.",,Placeholder
 CRA,PHDW-043,Zodiac Pig - Merchant,3,2,1,Summon,,,,Runaway Prosperity,Normal,Special,,"[foresee] [2], then for each Branch on this [gate], [foresee] [1] more:",Branch a [gate] with a Branch [skill] from your [foresee] to this.,,Placeholder
-CRA,PHDW-044,Zodiac Horse - Cavalry,4,0,1,Summon,,,,Gallant March,Normal,Movement,,,This and a bordering [summon][or][spirit][or][entrant] move [1] in the same direction.,,Placeholder
+CRA,PHDW-044,Zodiac Horse - Cavalry,4,0,1,Summon,,,,Gallant March,Normal,Movement,,,"Choose a bordering [summon][or][spirit][or][entrant].
+This moves to an empty bordering [zone], then that chosen [gate] moves to an empty [zone] it borders in the same direction, if able.",,Placeholder
 CRA,PHDW-045,Zodiac Dog - Honesty,8,2,1,Summon,,,,Fair Fetch,Fast,Special,,Both players [foresee] [1]:,"You can add [1] [gate] from your [foresee] to your [hand], except a [summon], but if you do, your Opponent can do the same.",,Placeholder
 CRA,PHDW-046,Zodiac Ox - Cornerstone,9,4,1,Summon,,,,Reliable Instinct,Passive,Special,,,Ready this during your Opponent's Ready Step.,,Placeholder
 CRA,PHDW-047,Zodiac Snake - Assassin,0,0,2,Summon,,,,Poison Fang,Normal,Special,,[target] [1] bordering [zone]:,Discard a [summon][or][spirit] from [target] with [9] or more [defense].,,Placeholder
