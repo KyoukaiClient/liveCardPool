@@ -38,7 +38,7 @@ CRA,PHDW-029,Splintered Buckler,,,,Normal,,,Branch this from your [entrant][or][
 CRA,PHDW-030,Refined Potion,,,,Fast,,,"Discard your ""Slime"" [summon] to Ready your [entrant].",,,,,,,Some try not to think about how these potions are made - but their efficacy remains unquestioned.,Mark Reid
 CRA,PHDW-031,First Form - Exerting Dodge,,,,Fast,,"Open this bordering your [entrant], even if it's Rested.","Switch this with your [entrant].
 If your [entrant] is Rested, discard [1] from your [hand], if able.",,,,,,,"With so much on the line, some find a final bit of strength beyond their limits.",Mark Reid
-CRA,PHDW-032,Pinfencer Pixie,0,9,2,Summon,,,,Smallsword Resolve,Normal,Damage,,[target] [1] bordering [zone].,"Switch the written [attack] and [defense] of this [gate] until the next time it's Ready, then this deals its [attack] to [target].","A soldier whose deep loyalty to her Queen removes any fear of death. With life on the line and heart on her sleeve, she waits for her chance to strike.",Mark Reid
+CRA,PHDW-032,Pinfencer Pixie,0,9,2,Summon,,,,Smallsword Resolve,Normal,Damage,,"[target] [1] bordering [zone]. For this Sequence, switch the written [attack] and [defense] of this [gate].",This deals its [attack] to [target].,"A soldier whose deep loyalty to her Queen removes any fear of death. With life on the line and heart on her sleeve, she waits for her chance to strike.",Mark Reid
 CRA,PHDW-033,Entrants' Honor,,,,Normal,,"Each player can only add to this Sequence once
 (not including this).",,,,,,,,To bow to one's opponent in battle is an appeal to their honor - to test one's mettle in an honest clash.,Mark Reid
 CRA,PHDW-034,Branchnest Hawk,4,1,2,Summon,,"[target] up to [3] of your discarded [gate]
