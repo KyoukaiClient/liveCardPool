@@ -41,6 +41,3 @@
 0@entrant
 18@spiritDeck
 21@spiritDeck
-44@spiritDeck
-44@spiritDeck
-44@spiritDeck
