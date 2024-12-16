@@ -1,5 +1,6 @@
 extends Node2D
 #Weathervane Rooster
+#done for 0.00
 
 func isInMoveRange(myZone, originZone):
 	var originRow = Global.rowConvert[originZone.left(1)]

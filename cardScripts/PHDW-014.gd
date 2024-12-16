@@ -1,32 +1,11 @@
 extends Node2D
-var cardNode = get_parent().get_parent()
-var skillChosenZone = ""
-#First Form - Punch
+#First Form - Block
 #done for 0.00
 
+
 func isInSkillRange(myZone, originZone):
-	var targetRow = get_parent().rowConvert[myZone.left(1)]
-	var targetColumn = int(myZone.right(2))-1
-	var myMatrix
-	var myOwner = get_parent().get_parent().cardOwnerIndex
-	if myOwner == 1:
-		myMatrix = get_node(Global.pathStrings["P1Snaps"]).zoneHas
-	else:
-		myMatrix = get_node(Global.pathStrings["P2Snaps"]).zoneHas
+	return get_parent().isMyGate(myZone, originZone)
 	
-	if targetRow-1 >= 0:
-		if myMatrix[targetRow-1][targetColumn] != 0:
-			return true
-	if targetColumn-1 >= 0:
-		if myMatrix[targetRow][targetColumn-1] != 0:
-			return true
-	if targetRow+1 <=4:
-		if myMatrix[targetRow+1][targetColumn] != 0:
-			return true
-	if targetColumn+1 <= 4:
-		if myMatrix[targetRow][targetColumn+1] != 0:
-			return true
-	return false
 
 
 func costForOpenMe():
@@ -37,13 +16,15 @@ func resoForOpenMe(source, targetArray):
 	var targetColumn
 	var myOwner
 	var entrantZoneID
+	var targetedCardNode
 	var entrantRow
 	var entrantColumn
-	var damageAmount = 3
+	var blockAmount = 3
 	for target in targetArray:
 		targetRow = get_parent().rowConvert[target["zoneID"].left(1)]
 		targetColumn = int(target["zoneID"].right(2))-1
 		myOwner = get_parent().get_parent().cardOwnerIndex
+		targetedCardNode = Global.getCardNodeInZone(target["zoneID"])
 		
 		if myOwner == 1:
 			entrantZoneID = RulesEngine.currentP1EntrantNode.get_node("Card").inZoneID
@@ -51,13 +32,16 @@ func resoForOpenMe(source, targetArray):
 			entrantZoneID = RulesEngine.currentP2EntrantNode.get_node("Card").inZoneID
 		entrantRow = get_parent().rowConvert[entrantZoneID.left(1)]
 		entrantColumn = int(entrantZoneID.right(2))-1
+		
 		if targetRow-1 == entrantRow or targetRow+1 == entrantRow:
 			if targetColumn == entrantColumn:
-				damageAmount += 6
+				blockAmount += 6
 		elif targetRow == entrantRow:
 			if targetColumn-1 == entrantColumn or targetColumn+1 == entrantColumn:
-				damageAmount += 6
-		RulesEngine.dealDamageToZone(target["zoneID"], source, damageAmount)
-		damageAmount = 3
-
+				blockAmount += 6
+			elif targetColumn == entrantColumn:
+				blockAmount += 6
+		targetedCardNode.get_node("Card/cardScript").myDefense += blockAmount
+		targetedCardNode.get_node("Card").updateInfo()
+		blockAmount = 3
 	get_parent().emitStartNextSequence()

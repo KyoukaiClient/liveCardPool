@@ -1,27 +1,18 @@
 extends Node2D
 var skillChosenZone = ""
-#Participant
+#Zodiac Horse - Cavalry
 #done for 0.00
+
 
 func canIUseASkill():
 	return true
 
 func isInSkillRange(myZone, originZone):
-	return get_parent().isBorderingGateOfTypes(myZone, originZone, ["Summon"], true)
+	return get_parent().isBorderingGateOfTypes(myZone, originZone, ["Summon","Spirit","Entrant"])
 
 func isInSpecialSkillRange(myZone, originZone):
-	var originRow = get_parent().rowConvert[skillChosenZone.left(1)]
-	var originColumn = int(skillChosenZone.right(2))-1
-	var targetRow = get_parent().rowConvert[myZone.left(1)]
-	var targetColumn = int(myZone.right(2))-1
-	var targetSolid = get_node("/root/Main").pathGrid.is_point_solid(Vector2i(targetRow,targetColumn))
-	var pathLength = get_node("/root/Main").pathGrid.get_id_path(Vector2i(originRow,originColumn),Vector2i(targetRow,targetColumn)).size()-1
-
+	return get_parent().isEmptyBorderingZone(myZone, originZone)
 	
-	if (pathLength) == 1:
-		return true
-	else:
-		return false
 
 func costForSkill():
 	get_parent().get_parent().restMe()
@@ -36,7 +27,6 @@ func resoForSkill(source,targetArray):
 		if skillChosenZone == "":
 			get_parent().emitStartNextSequence()
 		else:
-			await get_tree().create_timer(.1).timeout
 			RulesEngine.skillChoiceZoneID = ""
 			RulesEngine.waitingForSkillChoice = false
 			RulesEngine.waitingToSkillNode = null
@@ -47,10 +37,14 @@ func resoForSkill(source,targetArray):
 			await RulesEngine.spSkillChoiceReceived
 			
 			if RulesEngine.spSkillChoiceZoneID != "FIZZLE":
+				var moveDir = Global.whatDirectionIsThisBorderingZone(get_parent().get_parent().inZoneID,RulesEngine.spSkillChoiceZoneID)
 				var cardToMove = Global.getCardNodeInZone(skillChosenZone)
-				cardToMove.get_node("Card").moveMeFromZoneToZone(RulesEngine.spSkillChoiceZoneID)
-				get_parent().get_parent().moveMeFromZoneToZone(skillChosenZone)
-	await get_tree().create_timer(.1).timeout
+				var otherGateDestination = Global.getBorderingZoneInADirection(skillChosenZone,moveDir)
+				get_parent().get_parent().moveMeFromZoneToZone(RulesEngine.spSkillChoiceZoneID)
+				if otherGateDestination != "OFFFIELD":
+					if Global.getCardNodeInZone(otherGateDestination) == null:
+						cardToMove.get_node("Card").moveMeFromZoneToZone(otherGateDestination)
+				
 	RulesEngine.waitingForSpSkillChoice = false
 	RulesEngine.waitingForSkillChoice = false
 	RulesEngine.spSkillChoiceZoneID = ""

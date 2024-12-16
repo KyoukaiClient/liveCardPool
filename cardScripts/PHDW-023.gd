@@ -2,22 +2,27 @@ extends Node2D
 var cardNode = get_parent().get_parent()
 var skillChosenZone = ""
 #Childhood Guardian
+#done for 0.00
 
 
 
 func amISelectableOppTurn():
-	if Structure.firstTurnPlayer == 2 and cardNode.inSpiritDeck and Structure.whatPhaseIsIt == Structure.PHASES.SETUP:
+	if RulesEngine.waitingForOppResponse:
+		cardNode.cardSelectable = false
+		cardNode.cardDraggable = false
+		cardNode.cardOpenable = false
+		return false
+	elif Structure.firstTurnPlayer == 2 and cardNode.inSpiritDeck and Structure.whatPhaseIsIt == Structure.PHASES.SETUP:
 		get_parent().canIBeOpened()
 		cardNode.cardSelectable = false
 		if cardNode.cardOpenable:
 			return true
-			cardNode.cardSelectable = false
-			cardNode.cardDraggable = false
 	elif Structure.whatPhaseIsIt == Structure.PHASES.MAIN or Structure.whatPhaseIsIt == Structure.PHASES.END:
 		if RulesEngine.waitingForResponse and not cardNode.inDiscard and \
 											not cardNode.inSpiritDeck and \
 											not cardNode.inShatter and \
 											not cardNode.inForesee and \
+											Global.whichPlayerAmI == get_parent().get_parent().cardOwnerIndex and \
 											cardNode.cardReady:
 			cardNode.cardSelectable = true
 			cardNode.cardDraggable = false
@@ -84,17 +89,16 @@ func costForSkill():
 	RulesEngine.requestResponse(get_parent().get_parent(), "costForMySkill")
 
 func resoForSkill(source = null, targetArray = []):
-	RulesEngine.requestSkillChoice(get_parent())
+	RulesEngine.requestSkillChoice(get_parent().get_parent())
 	await RulesEngine.skillChoiceReceived
 	skillChosenZone = RulesEngine.skillChoiceZoneID
-	if skillChosenZone == "":
-		get_parent().emitStartNextSequence()
-	else:
-		RulesEngine.skillChoiceZoneID = ""
-		RulesEngine.waitingForSkillChoice = false
-		RulesEngine.waitingToSkillNode = null
-		RulesEngine.rangePurpose = RulesEngine.RANGETYPE.BLANK
-		RulesEngine.selRangePurpose = RulesEngine.RANGETYPE.BLANK
-		
+	if skillChosenZone != "FIZZLE":
 		get_parent().get_parent().moveMeFromZoneToZone(skillChosenZone)
-		get_parent().emitStartNextSequence()
+		
+	await get_tree().create_timer(.1).timeout
+	RulesEngine.skillChoiceZoneID = ""
+	RulesEngine.waitingForSkillChoice = false
+	RulesEngine.waitingToSkillNode = null
+	RulesEngine.rangePurpose = RulesEngine.RANGETYPE.BLANK
+	RulesEngine.selRangePurpose = RulesEngine.RANGETYPE.BLANK
+	get_parent().emitStartNextSequence()
