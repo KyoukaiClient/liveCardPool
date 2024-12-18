@@ -2,7 +2,7 @@ extends Node2D
 var cardNode = get_parent().get_parent()
 var skillChosenZone = ""
 #First Form - Punch
-#done for 0.00
+#done for 0.02
 
 func isInSkillRange(myZone, originZone):
 	var targetRow = get_parent().rowConvert[myZone.left(1)]

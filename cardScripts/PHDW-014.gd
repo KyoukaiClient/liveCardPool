@@ -1,6 +1,6 @@
 extends Node2D
 #First Form - Block
-#done for 0.00
+#done for 0.02
 
 
 func isInSkillRange(myZone, originZone):

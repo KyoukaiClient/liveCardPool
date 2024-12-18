@@ -1,6 +1,6 @@
 extends Node2D
 #Pinfencer's Pixtea Prayer
-#done for 0.00
+#done for 0.02
 
 
 func isInSkillRange(myZone, originZone):

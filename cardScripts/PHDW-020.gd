@@ -1,6 +1,6 @@
 extends Node2D
 #Into The Gate
-#done for 0.00
+#done for 0.02
 
 func canIOpenHere(myZone):
 	var myRow = Global.rowConvert[myZone.left(1)]

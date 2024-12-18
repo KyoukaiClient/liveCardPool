@@ -1,7 +1,7 @@
 extends Node2D
 var skillChosenZone = ""
 #Zodiac Horse - Cavalry
-#done for 0.00
+#done for 0.02
 
 
 func canIUseASkill():

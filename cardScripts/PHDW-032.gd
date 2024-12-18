@@ -1,6 +1,6 @@
 extends Node2D
 #Pinfencer Pixie
-#done for 0.00
+#done for 0.02
 
 func canIUseASkill():
 	return true

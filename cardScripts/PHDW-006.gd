@@ -1,6 +1,6 @@
 extends Node2D
 #Wandering Lion
-#done for 0.00
+#done for 0.02
 
 func canIUseASkill():
 	return true

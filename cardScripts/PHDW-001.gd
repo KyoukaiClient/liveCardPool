@@ -1,7 +1,7 @@
 extends Node2D
 var skillChosenZone = ""
 #Participant
-#done for 0.00
+#done for 0.02
 
 func canIUseASkill():
 	return true

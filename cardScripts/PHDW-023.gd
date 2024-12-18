@@ -2,7 +2,7 @@ extends Node2D
 var cardNode = get_parent().get_parent()
 var skillChosenZone = ""
 #Childhood Guardian
-#done for 0.00
+#done for 0.02
 
 
 

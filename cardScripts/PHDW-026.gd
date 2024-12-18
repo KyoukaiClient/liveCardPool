@@ -1,6 +1,7 @@
 extends Node2D
 var cardNode = get_parent().get_parent()
 #Feng, Emerging Flame
+#done for 0.02
 
 
 func canIBeOpened():
@@ -99,8 +100,11 @@ func amISelectablePreRoutine():
 			if nextZone != "OFFFIELD":
 				nextCardNode = Global.getCardNodeInZone(nextZone)
 				if nextCardNode != null:
-					combinedStatsArray[0] += int(nextCardNode.get_node("Card/cardScript").myDefense)
-					combinedStatsArray[1] += int(nextCardNode.get_node("Card/cardScript").myAttack)
-					combinedStatsArray[2] += int(nextCardNode.get_node("Card/cardScript").myMovement)
+					if combinedStatsArray[0] < int(nextCardNode.get_node("Card/cardScript").myDefense):
+						combinedStatsArray[0] = int(nextCardNode.get_node("Card/cardScript").myDefense)
+					if combinedStatsArray[1] < int(nextCardNode.get_node("Card/cardScript").myAttack):
+						combinedStatsArray[1] = int(nextCardNode.get_node("Card/cardScript").myAttack)
+					if combinedStatsArray[2] < int(nextCardNode.get_node("Card/cardScript").myMovement):
+						combinedStatsArray[2] = int(nextCardNode.get_node("Card/cardScript").myMovement)
 		get_parent().modifierArray[cardNode.cardID] = combinedStatsArray
 		get_parent().resetMyStaticStats()
