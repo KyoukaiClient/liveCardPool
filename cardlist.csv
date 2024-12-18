@@ -14,7 +14,7 @@ If [target] borders your [entrant], deal [6] more.",,,,,,,"A regular punch, whos
 CRA,PHDW-014,First Form - Block,,,,Fast,,[target] [1] [zone] with your [gate].,"[target] gains [3] [defense] for the rest of this sequence.
 If [target] borders or has your [entrant], it gains [6] more.",,,,,,,"A regular block, whose reach and power have been strengthened by a Gate.",Mark Reid
 CRA,PHDW-015,Stone Throw,,,,Fast,,[target] any [1] [zone]:,"Deal [1] to [target], and each [zone] it borders.",,,,,,,"Called through a Gate, even plain gravel has its uses.",Mark Reid
-CRA,PHDW-016,Zodiac Rooster - Weathervane,8,2,1,Summon,,,,Windfacing Instinct,Passive,Special,,,"When this moves or attacks with its own action,
+CRA,PHDW-016,Zodiac Rooster - Weathervane,9,2,1,Summon,,,,Windfacing Instinct,Passive,Special,,,"When this moves or attacks with its own action,
 it can treat a [zone] sharing a corner with it as if it was bordering it.","A rooster that glides against the wind - somehow, it can sense the true orientation of the world.",Placeholder
 CRA,PHDW-017,Tripwire,,,,Normal,,"Open this face-down as a ""Sealed Gate"" [summon] with
 [0] [attack], [2] [defense], and [0] [movement].",,Shocking Slipup,Fast,Flip,,"While this is a ""Sealed Gate"", Rest it to Flip it face-up:",Negate any [skill] of a [gate] in a bordering [zone] for the rest of this Sequence.,"""UwaHH! Who PUT this here?!""",Mark Reid
@@ -38,7 +38,7 @@ CRA,PHDW-029,Splintered Buckler,,,,Normal,,,Branch this from your [entrant][or][
 CRA,PHDW-030,Refined Potion,,,,Fast,,,"Discard your ""Slime"" [summon] to Ready your [entrant].",,,,,,,Some try not to think about how these potions are made - but their efficacy remains unquestioned.,Mark Reid
 CRA,PHDW-031,First Form - Exerting Dodge,,,,Fast,,"Open this bordering your [entrant], even if it's Rested.","Switch this with your [entrant].
 If your [entrant] is Rested, discard [1] from your [hand], if able.",,,,,,,"With so much on the line, some find a final bit of strength beyond their limits.",Mark Reid
-CRA,PHDW-032,Pinfencer Pixie,0,9,2,Summon,,,,Smallsword Resolve,Normal,Damage,,"[target] [1] bordering [zone]. For this Sequence, switch the written [attack] and [defense] of this [gate].",This deals its [attack] to [target].,"A soldier whose deep loyalty to her Queen removes any fear of death. With life on the line and heart on her sleeve, she waits for her chance to strike.",Mark Reid
+CRA,PHDW-032,Pinfencer Pixie,0,4,2,Summon,,,,Smallsword Resolve,Normal,Damage,,"[target] [1] bordering [zone]. For this Sequence, switch the written [attack] and [defense] of this [gate].",This deals its [attack] to [target].,"A soldier whose deep loyalty to her Queen removes any fear of death. With life on the line and heart on her sleeve, she waits for her chance to strike.",Mark Reid
 CRA,PHDW-033,Entrants' Honor,,,,Normal,,"Each player can only add to this Sequence once
 (not including this).",,,,,,,,To bow to one's opponent in battle is an appeal to their honor - to test one's mettle in an honest clash.,Mark Reid
 CRA,PHDW-034,Branchnest Hawk,4,1,2,Summon,,"[target] up to [3] of your discarded [gate]
@@ -54,14 +54,14 @@ CRA,PHDW-042,Zodiac Rat - Forerunner,0,0,2,Summon,,,,Scurrying Pawn,Passive,Spec
 CRA,PHDW-043,Zodiac Pig - Merchant,3,2,1,Summon,,,,Runaway Prosperity,Normal,Special,,"[foresee] [2], then for each Branch on this [gate], [foresee] [1] more:",Branch a [gate] with a Branch [skill] from your [foresee] to this.,,Placeholder
 CRA,PHDW-044,Zodiac Horse - Cavalry,4,0,1,Summon,,,,Gallant March,Normal,Movement,,,"Choose a bordering [summon][or][spirit][or][entrant].
 This moves to an empty bordering [zone], then that chosen [gate] moves to an empty [zone] it borders in the same direction, if able.",,Placeholder
-CRA,PHDW-045,Zodiac Dog - Honesty,8,2,1,Summon,,,,Fair Fetch,Fast,Special,,Both players [foresee] [1]:,"You can add [1] [gate] from your [foresee] to your [hand], except a [summon], but if you do, your Opponent can do the same.",,Placeholder
+CRA,PHDW-045,Zodiac Dog - Honesty,6,2,1,Summon,,,,Fair Fetch,Fast,Special,,Both players [foresee] [1]:,"You can add [1] [gate] from your [foresee] to your [hand], except a [summon], but if you do, your Opponent can do the same.",,Placeholder
 CRA,PHDW-046,Zodiac Ox - Cornerstone,9,4,1,Summon,,,,Reliable Instinct,Passive,Special,,,Ready this during your Opponent's Ready Step.,,Placeholder
 CRA,PHDW-047,Zodiac Snake - Assassin,0,0,2,Summon,,,,Poison Fang,Normal,Special,,[target] [1] bordering [zone]:,Discard a [summon][or][spirit] from [target] with [9] or more [defense].,,Placeholder
 CRA,PHDW-048,Zodiac Tiger - Warrior,10,6,1,Summon,,,,Zodiac Honor,Passive,Damage,,,"Before this deals damage to a [gate], that [gate] deals its [attack] to this first (if it has an [attack]).",,Placeholder
 CRA,PHDW-049,Zodiac Rabbit - Life,0,0,2,Spirit,3,"Return [3] [summon] with a ""Zodiac"" [skill] from your [discard] to the bottom of your [deck].",Ready This.,Spring's Sign,Normal,Special,,,"Ready [1] of your ""Zodiac"" [summon] that borders this.",,Mark Reid
 CRA,PHDW-050,Zodiac Goat - Signpost,9,3,1,Summon,,,,Vertical Instinct,Passive,Movement,,,When this enters a corner [zone] of the field (whether by moving or Summoning): Ready it.,,Placeholder
-CRA,PHDW-051,Boomerang Fish,8,0,2,Summon,,,Branch this from your [entrant].,Homeward Spin,Normal,Branch,,"Place each ""Boomerang Fish"" Branched from this into a bordering [zone], then Ready them.","As this turn ends, Branch all of your ""Boomerang Fish"" from your [entrant].",,Mark Reid
-CRA,PHDW-052,Trapdoor Spider,8,0,0,Summon,,"Open this face-down as a ""Sealed Gate"" [summon] with 
+CRA,PHDW-051,Boomerang Fish,6,0,2,Summon,,,Branch this from your [entrant].,Homeward Spin,Normal,Branch,,"Place each ""Boomerang Fish"" Branched from this into a bordering [zone], then Ready them.","As this turn ends, Branch all of your ""Boomerang Fish"" from your [entrant].",,Mark Reid
+CRA,PHDW-052,Trapdoor Spider,6,0,0,Summon,,"Open this face-down as a ""Sealed Gate"" [summon] with 
 [0] [attack], [2] [defense], and [0] [movement].",,Patience Payoff,Fast,Flip,,"While this is a ""Sealed Gate"", Rest it to Flip it face-up:","This deals its [attack] to a bordering [zone].
 You can return this to your [hand].",,
 CRA,PHDW-053,Hunter's Divebreak,,,,Fast,,,"For one of your effects that has [1] [target], choose a new [target] for it.",,,,,,,,
@@ -73,6 +73,7 @@ CRA,PHDW-057,Reserved Slot,,,,Normal,,,,,,,,,,,
 CRA,PHDW-058,Reserved Slot,,,,Normal,,,,,,,,,,,
 CRA,PHDW-059,Reserved Slot,,,,Normal,,,,,,,,,,,
 CRA,PHDW-060,Reserved Slot,,,,Normal,,,,,,,,,,,
+CRA,PHDW-100,Reserved Slot,,,,Normal,,,,,,,,,,,
 CF,PHDW-002,"Sui, Spellshard Researcher",3,0,1,Entrant,,,,Spellshard Conduit,Fast,Special,,"Shatter [1] ""Spellshard"" [gate] from your [hand].
 [target] any [1] [zone].",This does not affect your Opponent's [entrant].,"Orphaned in a path without other humans, Sui was raised by Pixies and Wildlife. Her search for answers led to her tthirst for knowledge, that has long since outgrown its initial purpose.",Mark Reid
 CF,PHDW-061,Passerby Pixie,3,0,1,Spirit,6,Open only as the first [gate] you Open each turn.,Ready this.,Spellshard Surveyor,Normal,Shattered,,Discard [1] [gate] from your [hand].,Draw [1].,An unnamed Pixie living without a care in the world.,Mark Reid
