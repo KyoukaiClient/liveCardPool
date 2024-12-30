@@ -64,8 +64,8 @@ CRA,PHDW-051,Boomerang Fish,6,0,2,Summon,,,Branch this from your [entrant].,Home
 CRA,PHDW-052,Trapdoor Spider,6,0,0,Summon,,"Open this face-down as a ""Sealed Gate"" [summon] with 
 [0] [attack], [2] [defense], and [0] [movement].",,Patience Payoff,Fast,Flip,,"While this is a ""Sealed Gate"", Rest it to Flip it face-up:","This deals its [attack] to a bordering [zone].
 You can return this to your [hand].",,
-CRA,PHDW-053,Hunter's Divebreak,,,,Fast,,,"For one of your effects that has [1] [target], choose a new [target] for it.",,,,,,,,
-CRA,PHDW-054,A Guardian Recollected,,,,Fast,,,"Switch your [entrant] with your ""Childhood Guardian"" [spirit], or if it's in your [spirit] [deck][or][discard], you can place it in an empty [zone] bordering your [entrant] first.
+CRA,PHDW-053,Hunter's Divebreak,,,,Fast,,[target] any [1] [zone] with your Opponent's [target]:,"If [target] has your [summon][or][spirit][or][entrant]: it deals [2] to a [zone] it borders, then it moves [1].",,,,,,,,
+CRA,PHDW-054,A Guardian Recollected,,,,Fast,,,"Switch your [entrant] with your ""Childhood Guardian"" [spirit], or if it's in your [spirit] [deck][or][discard], place it Ready in an empty [zone] bordering your [entrant] instead.
 ",,,,,,,,
 CRA,PHDW-055,Reserved Slot,,,,Normal,,,,,,,,,,,
 CRA,PHDW-056,Reserved Slot,,,,Normal,,,,,,,,,,,
