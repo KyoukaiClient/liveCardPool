@@ -67,7 +67,7 @@ You can return this to your [hand].",,
 CRA,PHDW-053,Hunter's Divebreak,,,,Fast,,[target] any [1] [zone] with your Opponent's [target]:,"If [target] has your [summon][or][spirit][or][entrant]: it deals [2] to a [zone] it borders, then it moves [1].",,,,,,,,
 CRA,PHDW-054,A Guardian Recollected,,,,Fast,,,"Switch your [entrant] with your ""Childhood Guardian"" [spirit], or if it's in your [spirit] [deck][or][discard], place it Ready in an empty [zone] bordering your [entrant] instead.
 ",,,,,,,,
-CRA,PHDW-055,Reserved Slot,,,,Normal,,,,,,,,,,,
+CRA,PHDW-055,Primal Empathy,,,,Fast,,,"For the rest of this Sequence, prevent any damage your [summon][or][spirit] would deal to your own [gate].",,,,,,,,
 CRA,PHDW-056,Reserved Slot,,,,Normal,,,,,,,,,,,
 CRA,PHDW-057,Reserved Slot,,,,Normal,,,,,,,,,,,
 CRA,PHDW-058,Reserved Slot,,,,Normal,,,,,,,,,,,
@@ -107,7 +107,7 @@ This gains [2] [attack].",An emblem of loyalty. Alignment with Pixie royalty bri
 CF,PHDW-079,Pixtea Party,,,,Fast,,,"All of your ""Pixie"" [gate] on the field gain [2] [attack], [2] [defense], and [2] [movement] for the rest of the turn.",,,,,,,"Pixie society moves through the forest, under the protective shade of the forest. What mystical activities could they be secretly engaging in behind closed doors?",Placeholder
 CF,PHDW-080,Surveyor's Sighting,,,,Normal,,"For each of your [gate] with a ""Surveyor"" [skill], [foresee] [2]:",Add up to [2] [gate] that are from different Paths than your [entrant] from your [foresee] to your [hand].,,,,,,,,
 CF,PHDW-146,Pixtea Pastries,,,,Normal,,"Rest any number of your ""Pixie"" [summon][or][spirit]. [foresee] [1] for each.",Add any [1] [gate] from your [foresee] to your [hand].,,,,,,,,
-CF,PHDW-147,Reserved Slot,,,,Normal,,,,,,,,,,,
+CF,PHDW-147,Sui's Invitation,,,,Normal,,,,,,,,,,,
 CF,PHDW-148,Reserved Slot,,,,Normal,,,,,,,,,,,
 CF,PHDW-149,Reserved Slot,,,,Normal,,,,,,,,,,,
 CF,PHDW-150,Reserved Slot,,,,Normal,,,,,,,,,,,
@@ -142,7 +142,7 @@ AR,PHDW-097,First Form - Rising Draft,,,,Fast,,,"Move either your [entrant] or y
 AR,PHDW-098,Second Form - Echoing Memory,,,,Normal,,"Pay the Open Cost of a ""First Form"" [gate] in your [discard] and Shatter it.","Resolve the Open Effect of the ""First Form"" [gate] this Shattered.",,,,,,,,Mark Reid
 AR,PHDW-099,Second Form - Lightning Step,,,,Fast,,"Shatter a ""First Form"" [gate] from your [discard].","For each ""Form"" [gate] in your [shatter], move your [entrant] to an empty [zone] it borders. 
 Each of these movements must be in the same direction.",,,,,,,,Placeholder
-AR,PHDW-156,Reserved Slot,,,,Normal,,,,,,,,,,,
+AR,PHDW-156,Jin's Invitation,,,,Normal,,,,,,,,,,,
 AR,PHDW-157,Reserved Slot,,,,Normal,,,,,,,,,,,
 AR,PHDW-158,Reserved Slot,,,,Normal,,,,,,,,,,,
 AR,PHDW-159,Reserved Slot,,,,Normal,,,,,,,,,,,
@@ -184,7 +184,7 @@ GC,PHDW-122,Reserved Slot,,,,Spirit,1,"Rest these among your ""Altar"" [summon]:
 If this has at least [3] branched ""Sea Altar"", Ready it.",,
 GC,PHDW-123,Treeshadow School,0,0,0,Spirit,3,"Rest these among your ""Altar"" [summon]: [1] ""Sea"".","Branch this from your ""Sea Altar"" [gate].",Teeming Twilight,Passive,Branch,,,"Add "" - Wilds Altar"" to the Name of this [gate]. When Resting this for the Open Cost of your [spirit], you can treat this as [2] ""Altar"" [summon] with its name.",,
 GC,PHDW-124,Kalpavriksha Seed,,,,Spirit,,,,Vessel of Wishes,,,,,,,
-GC,PHDW-125,Reserved Slot,,,,Normal,,,,,,,,,,,
+GC,PHDW-125,Aranyani's Invitation,,,,Normal,,,,,,,,,,,
 GC,PHDW-167,Reserved Slot,,,,Normal,,,,,,,,,,,
 GC,PHDW-168,Reserved Slot,,,,Normal,,,,,,,,,,,
 GC,PHDW-169,Reserved Slot,,,,Normal,,,,,,,,,,,
@@ -200,7 +200,7 @@ SR,PHDW-128,Shadowseek Owl,1,0,2,Summon,,"Open this face-down as a ""Sealed Gate
 SR,PHDW-129,Creeping Twilight,,,,Normal,,,"Flip all of your face-up [summon] with a ""Shadow"" [skill] face-down as ""Sealed"" [gate].
 (If they are Ready or Resting, they stay Ready or Resting.)",,,,,,,,
 SR,PHDW-130,Advancing Shadow,,,,Normal,,"Open this bordering your [entrant], even if it's Rested.","Ready all of your ""Sealed"" [gate], then end your turn.",,,,,,,,
-SR,PHDW-131,Reserved Slot,,,,Normal,,,,,,,,,,,
+SR,PHDW-131,In'nei's Invitation,,,,Normal,,,,,,,,,,,
 SR,PHDW-132,Reserved Slot,,,,Normal,,,,,,,,,,,
 SR,PHDW-133,Reserved Slot,,,,Normal,,,,,,,,,,,
 SR,PHDW-134,Reserved Slot,,,,Normal,,,,,,,,,,,
@@ -225,3 +225,6 @@ SR,PHDW-178,Reserved Slot,,,,Normal,,,,,,,,,,,
 SR,PHDW-179,Reserved Slot,,,,Normal,,,,,,,,,,,
 SR,PHDW-180,Reserved Slot,,,,Normal,,,,,,,,,,,
 SR,PHDW-181,Reserved Slot,,,,Normal,,,,,,,,,,,
+VNC,FORVN-001,"Jin, Focused Youth",6,2,1,Entrant,,,,,,,,,,"A young martial artist inheriting an ancient legacy. His prodigal talent in controlling flames lacks purpose in peace, but he still finds plenty of joy in his family.",Mark Reid
+VNC,FORVN-002,"Feng, Joyous Spark",4,0,2,Entrant,,,,,,,,,,"An energetic young student whose talents have yet to be discovered. She appreciates her family, yet sometimes dreams of adventure and faraway lands.",Mark Reid
+VNC,FORVN-003,"Huo, Stalwart Father",9,0,1,Spirit,,,,,,,,,,,
