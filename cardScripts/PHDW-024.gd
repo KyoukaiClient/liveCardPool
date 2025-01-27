@@ -102,7 +102,7 @@ func resoForSkill(source,targetArray):
 		if RulesEngine.spSkillChoiceZoneID == "":
 			get_parent().emitStartNextSequence()
 		else:
-			damageResult = RulesEngine.dealDamageToZone(RulesEngine.spSkillChoiceZoneID,get_parent().get_parent(),get_parent().myAttack)
+			damageResult = await RulesEngine.dealDamageToZone(RulesEngine.spSkillChoiceZoneID,get_parent().get_parent(),get_parent().myAttack)
 			await get_tree().create_timer(.1).timeout
 			RulesEngine.spSkillChoiceZoneID = ""
 			RulesEngine.waitingForSpSkillChoice = false

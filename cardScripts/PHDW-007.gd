@@ -47,7 +47,7 @@ func costForSkill():
 
 func resoForSkill(source,targetArray):
 	for target in targetArray:
-		RulesEngine.dealDamageToZone(target["zoneID"], source, 2)
+		await RulesEngine.dealDamageToZone(target["zoneID"], source, 2)
 	RulesEngine.requestSpSkillChoice(get_parent().get_parent())
 	await RulesEngine.spSkillChoiceReceived
 	

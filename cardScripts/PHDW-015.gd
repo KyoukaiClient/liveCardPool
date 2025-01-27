@@ -19,11 +19,11 @@ func resoForOpenMe(source, targetArray):
 		_targetRow = get_parent().rowConvert[target["zoneID"].left(1)]
 		_targetColumn = int(target["zoneID"].right(2))-1
 		
-		RulesEngine.dealDamageToZone(target["zoneID"], source, 1)
+		await RulesEngine.dealDamageToZone(target["zoneID"], source, 1)
 		
 		for dir in GameManager.dirArray:
 			_nextZone = Global.getBorderingZoneInADirection(target["zoneID"],dir)
 			if _nextZone != "OFFFIELD":
-				RulesEngine.dealDamageToZone(_nextZone, source, 1)
+				await RulesEngine.dealDamageToZone(_nextZone, source, 1)
 		
 	get_parent().emitStartNextSequence()

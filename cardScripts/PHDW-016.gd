@@ -10,7 +10,7 @@ func isInMoveRange(myZone, originZone):
 	get_node("/root/Main").pathGrid.set_diagonal_mode(AStarGrid2D.DIAGONAL_MODE_ALWAYS)
 	var pathLength = get_node("/root/Main").pathGrid.get_id_path(Vector2i(originRow,originColumn),Vector2i(targetRow,targetColumn)).size()-1
 	get_node("/root/Main").pathGrid.set_diagonal_mode(AStarGrid2D.DIAGONAL_MODE_NEVER)
-	if (pathLength) <= get_parent().myMovement and pathLength != -1:
+	if (pathLength) <= get_parent().myMovement and pathLength > 0:
 		return true
 	else:
 		return false

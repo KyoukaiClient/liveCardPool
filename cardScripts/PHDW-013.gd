@@ -57,7 +57,7 @@ func resoForOpenMe(source, targetArray):
 		elif targetRow == entrantRow:
 			if targetColumn-1 == entrantColumn or targetColumn+1 == entrantColumn:
 				damageAmount += 6
-		RulesEngine.dealDamageToZone(target["zoneID"], source, damageAmount)
+		await RulesEngine.dealDamageToZone(target["zoneID"], source, damageAmount)
 		damageAmount = 3
 
 	get_parent().emitStartNextSequence()

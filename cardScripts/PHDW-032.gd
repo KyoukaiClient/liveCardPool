@@ -24,5 +24,5 @@ func costForSkill():
 
 func resoForSkill(source,targetArray):
 	for target in targetArray:
-		RulesEngine.dealDamageToZone(target["zoneID"], source, get_parent().myAttack)
+		await RulesEngine.dealDamageToZone(target["zoneID"], source, get_parent().myAttack)
 	get_parent().emitStartNextSequence()
